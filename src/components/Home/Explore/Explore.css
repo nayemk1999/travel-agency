@@ -32,6 +32,18 @@
     padding: 10px 20px;
     margin-right: 10px;
 }
+.rectangle-img1{
+    width: 300px;
+    position: absolute;
+    z-index: 22;
+}
+.rectangle-img{
+    position: relative;
+    width: 300px;
+    left: 25.46%;
+    top: 46.16%;
+    z-index: 0;
+}
 @media only screen and (max-width: 600px) {
     .explore {
         position: absolute;
@@ -56,10 +68,25 @@
         font-size: 28px;
         line-height: 36px;
     }
-    .explore-btn button{
-        display:block;
+    .explore-btn, .explore-btn button{
+        display:block !important;
         margin-top: 10px;
         width:100%
     }
-   
+    .place-content{
+        display:none !important
+    }
+    .rectangle-img1{
+        width: 250px;
+    }
+    .rectangle-img{
+        position: relative;
+        width: 250px;
+        left: 15.46%;
+        top: 26.16%;
+        z-index: 0;
+    }
+    .explorePlace-img{
+        height:450px
+    }
 }
