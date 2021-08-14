@@ -18,7 +18,6 @@ export default function HeroSection() {
                     </div>
                 </Card.Body>
             </Card.ImgOverlay>
-
         </Card>
     )
 }
