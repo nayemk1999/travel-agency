@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutUs from '../AboutUs/AboutUs'
 import Header from '../Header/Header/Header'
 import HeroSection from '../Header/HeroSection/HeroSection'
 
@@ -7,6 +8,7 @@ export default function Home() {
         <div>
             <Header/>
             <HeroSection/>
+            <AboutUs/>
         </div>
     )
 }
