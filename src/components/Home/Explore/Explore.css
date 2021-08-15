@@ -33,13 +33,13 @@
     margin-right: 10px;
 }
 .rectangle-img1{
-    width: 300px;
+    width: 280px;
     position: absolute;
     z-index: 22;
 }
 .rectangle-img{
     position: relative;
-    width: 300px;
+    width: 280px;
     left: 25.46%;
     top: 46.16%;
     z-index: 0;
