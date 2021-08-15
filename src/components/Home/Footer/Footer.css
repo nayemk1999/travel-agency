@@ -1,0 +1,51 @@
+.input-div input{
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin-top: 25px;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+.input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+@media only screen and (max-width: 600px) {
+    .nav-logo {
+        display: block;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .footer{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+        /* flex-direction: column;
+        flex-wrap: wrap; */
+    }
+    .footer-end {
+        display:flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-logo{
+        margin:0 auto;
+    }
+    .first-col{
+        display: none !important;
+    }
+}
+

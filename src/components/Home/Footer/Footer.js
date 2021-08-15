@@ -1,8 +1,8 @@
-// import { faFacebookF, faGooglePlusG, faInstagram } from '@fortawesome/free-brands-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import FooterCol from './FooterCol';
-
+import './Footer.css'
+import { Image } from 'react-bootstrap';
+import Logo from '../../img/Logo.png'
 
 const noNamed = [
 
@@ -27,23 +27,36 @@ export default function Footer() {
         <div style={{ background: '#20514D', color: '#FFFFFF' }}>
             <div className='container mt-5 mb-5' >
                 <div className='row'>
-                    <FooterCol key={1} menuTitle={""} menuItems={noNamed} />
-                    <FooterCol key={2} menuTitle={''} menuItems={services} />
-                    <FooterCol key={3} menuTitle={''} menuItems={oralHealth} />
-                    <FooterCol key={4} menuTitle={''} menuItems={ourAddress} >
-                        <div className="mt-5">
-                            <input type='text' placeholder='Enter Your Email' />
-                            <button className="book-btn mt-2">SignUp</button>
+                    <div className='mt-5 col-md-2'>
+                        <Image
+                            className='nav-logo footer-logo'
+                            src={Logo}
+                        />
+                    </div>
+                    <div className=' col-md-10'>
+                        <div className='row footer'>
+                            <FooterCol key={2} menuTitle={''} menuItems={services} />
+                            <FooterCol key={3} menuTitle={''} menuItems={oralHealth} />
+                            <FooterCol key={4} menuTitle={''} menuItems={ourAddress} >
+                                <div className="mt-5 input-div">
+                                    <input class="input" type="text" placeholder='Enter Your Email' />
+                                    <button className="book-btn mt-2">SignUp</button>
+                                </div>
+                            </FooterCol>
                         </div>
-                    </FooterCol>
+                        {/* <FooterCol key={1} menuTitle={''} menuItems={noNamed} className='first-col'/> */}
+
+                    </div>
+
+
+
                 </div>
-                <div className=' pt-5' style={{ borderBottom: '1px solid #FFFFFF' }}></div>
-                <div className="pt-3 mt-2" style={{}}>
-                    <div className='d-flex align-items-center justify-content-between'>
+                <div className='pt-5' style={{ borderBottom: '1px solid #FFFFFF' }}></div>
+                <div className="pt-3 mt-2">
+                    <div className='d-flex justify-content-between footer-end'>
                         <p>© {(new Date()).getFullYear()} Ogunquit River Inn | All Rights Reserved</p>
                         <p>Privacy Policy   -   Terms & Conditions</p>
                     </div>
-
                 </div>
             </div>
         </div>

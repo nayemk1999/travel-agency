@@ -47,7 +47,7 @@ const NavBar = () => {
                     </span>
                     <Image
                         className='nav-logo'
-                        style={{ height: "33px", width: "43px" }}
+                        // style={{ height: "33px", width: "43px" }}
                         src={Logo}
                     />
 
