@@ -5,7 +5,7 @@ import explorePlace from '../../img/explorePlace.png'
 import explorePlace2 from '../../img/explorePlace2.png'
 export default function ExplorePlace() {
     return (
-        <Container className='mt-5 mb-5 pb-5'>
+        <Container className='mt-5 mb-5'>
             <Row>
                 <Col className='explorePlace-img'>
                     <Image className='rectangle-img1' src={explorePlace} /> 

@@ -32,7 +32,7 @@ const AboutUs = () => {
                     <h5>Located one mile north of Ogunquit Village, famous for local shopping & dining!</h5>
                     <p>Ogunquit River Inn overlooks the Ogunquit River and the Atlantic Ocean. The Rachel Carson Wildlife Refuge borders the property and attracts ducks, seabirds, deer and other wildlife</p>
                 </div>
-                <div className={`card-area card-7`}>
+                <div className="card-area card-7">
                     <img src={Shape5} />
                 </div>
             </div>

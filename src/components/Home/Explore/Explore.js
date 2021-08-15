@@ -6,7 +6,7 @@ import './Explore.css'
 
 export default function Explore() {
     return (
-        <div className='mt-5'>
+        <div className='mt-2'>
             <div className='explore-content'>
                 <div className='d-flex'>
                     <img style={{ width: '50%', height: '600px' }} src={Explore1} />

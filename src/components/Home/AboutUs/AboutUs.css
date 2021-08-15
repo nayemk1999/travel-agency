@@ -12,39 +12,48 @@
 
 @media screen and (max-width: 550px) {
     .about-container{
-        margin-top: 120px !important;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 200px);
+        margin-top: 200px !important;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr) !important;
         grid-template-areas:
-            "card-1"
-            "card-2"
-            "card-3"
-            "card-4"
-            "card-5"
-            "card-6"
-            "card-7"
-        ;
+            "card-7 card-2"
+            "card-1 card-2"
+            "card-1 card-4"
+            "card-5 card-5"
+         !important;
+        gap: 5px;
+    }
+    .card-3, .card-6{
+        display: none !important
     }
 }
 .card-1{
+    overflow: hidden;
     grid-area: card-1;
 }
 .card-2{
+    overflow: hidden;
     grid-area: card-2;
 }
 .card-3{
+    overflow: hidden;
     grid-area: card-3;
 }
 .card-4{
+    overflow: hidden;
     grid-area: card-4;
 }
 .card-5{
+    overflow: hidden;
     grid-area: card-5;
 }
 .card-6{
+    overflow: hidden;
     grid-area: card-6;
 }
 .card-7{
+    overflow: hidden;
     grid-area: card-7;
 }
 .card-area{
