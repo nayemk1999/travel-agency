@@ -35,24 +35,24 @@
 @media only screen and (max-width: 600px) {
     .hero-card {
         position: absolute;
-        width: 328px;
-        height: 171px;
+        width: 270px;
+        height: 150px;
         left: 16px;
         padding: 10px;
         top: 20px;
     }
     .hero-card h3 {
         font-size: 28px;
-        line-height: 32px;
+        line-height: 15px;
     }
     .hero-card p{
         font-size: 14px;
-        line-height: 21px;
+        line-height: 10px;
         letter-spacing: 0.01em;
     }
     .hero-card h4{
         font-size: 28px;
-        line-height: 40px;
+        line-height: 20px;
     }
   
 }

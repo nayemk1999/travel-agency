@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import book from '../../img/book.png'
 export default function BookDirect() {
     return (
-        <Container style={{ marginTop: '200px' }} >
+        <Container style={{ marginTop: '60px' }} >
             <Row >
                 <Col className='mt-5' sm={12} md={6} lg={6} className='bookDirect'>
                     <h4>Book Today</h4>
