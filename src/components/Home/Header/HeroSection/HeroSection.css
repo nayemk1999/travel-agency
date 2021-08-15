@@ -2,3 +2,19 @@
 .card-content{
     border: 4px solid #FFFFFF !important;
 }
+.heroImg{
+    animation-duration: 4000ms;
+  animation-name: fadeIn;
+  /* animation-iteration-count: infinite; */
+  animation-direction: alternate;
+  animation-timing-function: ease-out
+}
+@keyframes fadeIn {
+
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+  }

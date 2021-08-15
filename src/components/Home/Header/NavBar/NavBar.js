@@ -6,7 +6,10 @@ import './NavBar.css'
 const NavBar = () => {
     const [isSticky, setSticky] = useState(false);
     const [isCollapsed, setCollapsed] = useState(null);
+    const [show, setShow] = useState(false);
 
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -47,32 +50,35 @@ const NavBar = () => {
                     </span>
                     <Image
                         className='nav-logo'
-                        // style={{ height: "33px", width: "43px" }}
                         src={Logo}
                     />
 
                 </Navbar.Brand>
                 <Navbar.Toggle
-                    onClick={() => setCollapsed(!isCollapsed ? "show" : null)}
-                    aria-controls="basic-navbar-nav"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
                     style={{ background: "rgb(199 199 199 / 75%)", marginRight: "7px" }}
                 />
-                <Navbar.Collapse id="navbar-nav">
-                    <Nav className="ms-auto">
-                        <Nav.Link to="/home" className="mr-5 h5 nav-link">
-                            <strong>Local Dining</strong>
-                        </Nav.Link>
-                        <Nav.Link className="mr-5 h5 nav-link">
-                            <strong>Gallery</strong>
-                        </Nav.Link>
-                        <Nav.Link href="#rent" className="mr-5 h5 nav-link">
-                            <strong>Rates</strong>
-                        </Nav.Link>
-                        <Nav.Link to="/" className="mr-5 h5 nav-link">
-                            <strong>Contact</strong>
-                        </Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <Nav className="ms-auto">
+                            <Nav.Link to="/home" className="mr-5 h5 nav-link">
+                                <strong>Local Dining</strong>
+                            </Nav.Link>
+                            <Nav.Link className="mr-5 h5 nav-link">
+                                <strong>Gallery</strong>
+                            </Nav.Link>
+                            <Nav.Link href="#rent" className="mr-5 h5 nav-link">
+                                <strong>Rates</strong>
+                            </Nav.Link>
+                            <Nav.Link to="/" className="mr-5 h5 nav-link">
+                                <strong>Contact</strong>
+                            </Nav.Link>
+                        </Nav>
+                    </div>
+                </div>
             </Container>
         </Navbar>
     );

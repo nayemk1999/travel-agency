@@ -11,30 +11,32 @@ import Shape5 from '../../img/Shape5.png'
 const AboutUs = () => {
     return (
         <div className='mt-5 container'>
-            <div className="mt-5 pt-5 about-container">
-                <div className="card-area card-1">
-                    <img src={Shape} />
-                </div>
-                <div className="card-area card-2">
+            <div className="mt-5 pt-5 about-container card-area " id='image-animate'>
+                <img src={Shape} className='card-1' />
+                <img src={Shape2} className='card-2' />
+                <img src={Shape3} className='card-4' />
+                <img src={Shape4} className='card-5' />
+                <img src={Shape5} className='card-7' />
+                {/* <div className="card-area card-2 fade-in-image2">
                     <img src={Shape2} />
-                </div>
-                <div className="card-area card-3 p-4">
+                </div> */}
+                <div className="card-area card-3 p-4 ">
                     <h4>About Us</h4>
                     <h1>Ogunquit River Inn</h1>
                 </div>
-                <div className="card-area card-4">
+                {/* <div className="card-area card-4 fade-in-image3">
                     <img src={Shape3} />
-                </div>
-                <div className="card-area card-5">
+                </div> */}
+                {/* <div className="card-area card-5 fade-in-image4">
                     <img src={Shape4} />
-                </div>
-                <div style={{color: '#4F615F'}} className="card-area card-6 p-2">
+                </div> */}
+                <div style={{ color: '#4F615F' }} className="card-area card-6 p-2">
                     <h5>Located one mile north of Ogunquit Village, famous for local shopping & dining!</h5>
                     <p>Ogunquit River Inn overlooks the Ogunquit River and the Atlantic Ocean. The Rachel Carson Wildlife Refuge borders the property and attracts ducks, seabirds, deer and other wildlife</p>
                 </div>
-                <div className="card-area card-7">
+                {/* <div className="card-area card-7 fade-in-image5">
                     <img src={Shape5} />
-                </div>
+                </div> */}
             </div>
         </div>
 

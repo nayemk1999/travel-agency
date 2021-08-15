@@ -28,6 +28,8 @@ export default function SearchBar() {
                             aria-label="Default select example"
                         >
                             <option selected>Guest</option>
+                            <option>+</option>
+                            <option>-</option>
                         </select>
                     </Col>
                     <Col md>
