@@ -11,7 +11,7 @@ import Shape5 from '../../img/Shape5.png'
 const AboutUs = () => {
     return (
         <div className='mt-5 container'>
-            <div className="mt-5 property-container">
+            <div className="mt-5 pt-5 about-container">
                 <div className="card-area card-1">
                     <img src={Shape} />
                 </div>
