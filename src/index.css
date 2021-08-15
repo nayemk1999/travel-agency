@@ -1,10 +1,22 @@
 body {
   margin: 0;
   font-family: Helvetica !important;
+  color: #4F615F !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+h4{
+  font-family: 'Great Vibes', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px !important;
+    line-height: 60px;
+    color: #70F3EF;
+}
+h1{
+  font-weight: bold !important;
+  color: black !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

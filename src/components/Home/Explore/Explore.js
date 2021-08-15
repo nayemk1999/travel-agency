@@ -14,10 +14,10 @@ export default function Explore() {
                 </div>
                 <div className='d-flex align-items-center justify-content-center'>
                     <div className="explore text-center text-black d-flex align-items-center justify-content-center">
-                        <div>
+                        <div style={{color: "#4F615F"}}>
                             <h4>Explore Places</h4>
                             <h3>Beaches & Attractions</h3>
-                            <p >Southern Maine is famous for its world class beaches! There are three access points to the broad ribbon of beach that stretches between Wells and Ogunquit; Moody Beach,  Footbridge & Ogunquit Beach. ​</p>
+                            <p>Southern Maine is famous for its world class beaches! There are three access points to the broad ribbon of beach that stretches between Wells and Ogunquit; Moody Beach,  Footbridge & Ogunquit Beach. ​</p>
                             <div className='explore-btn'>
                                 <button className='outline-btn'>CALL NOW</button>
                                 <button className='book-btn'> Book Now</button>

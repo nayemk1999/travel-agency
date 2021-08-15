@@ -44,6 +44,9 @@
     top: 46.16%;
     z-index: 0;
 }
+.transportation{
+    margin-top: 200px !important;
+}
 @media only screen and (max-width: 600px) {
     .explore {
         position: absolute;
@@ -88,5 +91,13 @@
     }
     .explorePlace-img{
         height:450px
+    }
+    .bookDirect{
+        text-align: center;
+    }
+    .bookDirect-content h5{
+        font-weight: bold;
+        color: black;
+        text-align: center;
     }
 }
