@@ -42,15 +42,21 @@
         margin: 10px;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
     .checkRate{
-        left: 7% !important;
-        top: 220px !important;
+        left: 7% ;
+        top: 222px !important;
     }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) {
     .checkRate{
-        left: 14%;
+        left: 19% !important;
+        top: 225px !important;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .checkRate{
+        left: 14% ;
         top: 225px !important;
     }
 }
