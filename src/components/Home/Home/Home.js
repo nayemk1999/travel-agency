@@ -15,7 +15,7 @@ export default function Home() {
         <div>
             <Header/>
             <HeroSection/>
-            <SearchBar/>
+            {/* <SearchBar/> */}
             <AboutUs/>
             <Explore/>
             <ExplorePlace/>

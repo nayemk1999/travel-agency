@@ -6,17 +6,14 @@ import './HeroSection.css'
 
 export default function HeroSection() {
     return (
-        <Card>
-            <Card.Img src={HeaderBg} alt="Card image" />
-            <Card.ImgOverlay className="">
-                {/* <Card.Header as={"h4"} className="text-center mt-1 ">Book Today</Card.Header> */}
-                <Card.Body>
-                    <div className="hero-card text-center text-white">
-                        <h4 className="mt-3">Book Now</h4>
-                        <h3 className="mt-3">Best Rate Guarantee</h3>
-                        <p className="mt-3">We guarantee ​you’ll find the lowest price here.</p>
-                    </div>
-                </Card.Body>
+        <Card >
+            <Card.Img style={{ height: '800px' }} src={HeaderBg} alt="Card image" />
+            <Card.ImgOverlay className=" d-flex text-center align-items-center justify-content-center">
+                <div className='card-content p-5 text-white'>
+                    <h4 >Book Now</h4>
+                    <h3>Best Rate Guarantee</h3>
+                    <p>We guarantee ​you’ll find the lowest price here.</p>
+                </div>
             </Card.ImgOverlay>
         </Card>
     )
