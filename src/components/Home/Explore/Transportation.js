@@ -7,8 +7,8 @@ import transportation2 from '../../img/Transportation2.png'
 export default function Transportation() {
     return (
         <Container className='mt-5 transportation'>
-            <Row className=''>
-                <Col className='p-5'>
+            <Row className='mt-5 p-5'>
+                <Col className='mt-5'>
                     <h4>Explore Places</h4>
                     <h1>Transportation</h1>
                 </Col>

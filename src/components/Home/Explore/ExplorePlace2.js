@@ -5,7 +5,7 @@ import ExplorePlace21 from '../../img/ExplorePlace2-1.png'
 import ExplorePlace22 from '../../img/ExplorePlace2-2.png'
 export default function ExplorePlace2() {
     return (
-        <Container className='mt-5 pb-5'>
+        <div className='mt-5 pb-5'>
             <Row>
                 <Col className='p-5'>
                     <h4>Explore Places</h4>
@@ -22,6 +22,6 @@ export default function ExplorePlace2() {
                 </Col>
 
             </Row>
-        </Container>
+        </div>
     )
 }

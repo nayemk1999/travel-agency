@@ -5,13 +5,13 @@ import explorePlace from '../../img/explorePlace.png'
 import explorePlace2 from '../../img/explorePlace2.png'
 export default function ExplorePlace() {
     return (
-        <Container className='mt-5 mb-5'>
+        <div className='mt-5 mb-5'>
             <Row >
                 <Col className='explorePlace-img'>
                     <Image className='rectangle-img1' src={explorePlace} /> 
                     <Image className='rectangle-img' src={explorePlace2} /> 
                 </Col>
-                <Col className='p-5'>
+                <Col className='p-5 mr-5'>
                     <h4>Explore Places</h4>
                     <h1>Local Shopping, Dining, & Entertainment</h1>
                     <p>Ogunquit has a number of interesting shops offering antiques, rare books and other items. Ogunquit has a lovely walking village with dozens of boutiques and interesting shops. This coastal area is also famous for restaurants, from casual to fine dining, as well as great comedy clubs. Enjoy a show at the renowned Ogunquit Playhouse or live music at one of the local venues.</p>
@@ -21,6 +21,6 @@ export default function ExplorePlace() {
                     </div>
                 </Col>
             </Row>
-        </Container>
+        </div>
     )
 }
