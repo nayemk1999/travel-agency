@@ -5,7 +5,7 @@ export default function SearchBar() {
     return (
         <Container style={{zIndex: '5 !important', marginTop: '-50px'}}>
             <Form>
-                <Row className='checkRate w-75 d-flex text-center align-items-center justify-content-center mx-auto'>
+                <Row className='checkRate d-flex text-center align-items-center justify-content-center mx-auto'>
                     <Col md>
                         <select
                             className="form-select m-2 "

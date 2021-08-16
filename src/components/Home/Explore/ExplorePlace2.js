@@ -9,8 +9,8 @@ export default function ExplorePlace2() {
             <Row>
                 <Col className='p-5'>
                     <h4>Explore Places</h4>
-                    <h1>Local Shopping, Dining, & Entertainment</h1>
-                    <p>Ogunquit has a number of interesting shops offering antiques, rare books and other items. Ogunquit has a lovely walking village with dozens of boutiques and interesting shops. This coastal area is also famous for restaurants, from casual to fine dining, as well as great comedy clubs. Enjoy a show at the renowned Ogunquit Playhouse or live music at one of the local venues.</p>
+                    <h1>Kayak Rentals</h1>
+                    <p><span style={{color: '#29BFB3'}}>World Within Kayak</span> Rentals is located here at the Ogunquit River Inn in the heart of the Rachel Carson Wildlife Refuge. The safe, quiet, beautiful Ogunquit river and it’s maze-like estuaries that lead down to the Atlantic ocean. Guests staying at Ogunquit River Inn receive discounted rates on rentals.</p>
                     <div className='explore-btn'>
                         <button className='outline-btn'>CALL NOW</button>
                         <button className='book-btn'> Book Now</button>

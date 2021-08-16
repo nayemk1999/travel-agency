@@ -7,16 +7,16 @@ import './Explore.css'
 export default function Explore() {
     return (
         <div className='mt-2'>
-            <div className='explore-content'>
+            <div className='explore-content mt-5'>
                 <div className='d-flex'>
                     <img style={{ width: '50%', height: '600px' }} src={Explore1} />
                     <img style={{ width: '50%', height: '600px' }} src={Explore2} />
                 </div>
                 <div className='d-flex align-items-center justify-content-center'>
                     <div className="explore text-center text-black d-flex align-items-center justify-content-center">
-                        <div style={{color: "#4F615F"}}>
+                        <div >
                             <h4>Explore Places</h4>
-                            <h3>Beaches & Attractions</h3>
+                            <h1>Beaches & Attractions</h1>
                             <p>Southern Maine is famous for its world class beaches! There are three access points to the broad ribbon of beach that stretches between Wells and Ogunquit; Moody Beach,  Footbridge & Ogunquit Beach. ​</p>
                             <div className='explore-btn'>
                                 <button className='outline-btn'>CALL NOW</button>

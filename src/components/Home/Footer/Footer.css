@@ -31,8 +31,6 @@
         display:grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 10px;
-        /* flex-direction: column;
-        flex-wrap: wrap; */
     }
     .footer-end {
         display:flex !important;

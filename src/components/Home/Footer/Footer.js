@@ -53,9 +53,9 @@ export default function Footer() {
                 </div>
                 <div className='pt-5' style={{ borderBottom: '1px solid #FFFFFF' }}></div>
                 <div className="pt-3 mt-2">
-                    <div className='d-flex justify-content-between footer-end'>
-                        <p>© {(new Date()).getFullYear()} Ogunquit River Inn | All Rights Reserved</p>
-                        <p>Privacy Policy   -   Terms & Conditions</p>
+                    <div className='d-flex justify-content-between footer-end p-2' style={{color: 'white'}}>
+                        <span>© {(new Date()).getFullYear()} Ogunquit River Inn | All Rights Reserved</span>
+                        <span>Privacy Policy   -   Terms & Conditions</span>
                     </div>
                 </div>
             </div>

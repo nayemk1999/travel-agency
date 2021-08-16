@@ -23,7 +23,9 @@ const AboutUs = () => {
                 </div>
                 <div style={{ color: '#4F615F' }} className="card-area card-6 p-2">
                     <h5>Located one mile north of Ogunquit Village, famous for local shopping & dining!</h5>
-                    <p>Ogunquit River Inn overlooks the Ogunquit River and the Atlantic Ocean. The Rachel Carson Wildlife Refuge borders the property and attracts ducks, seabirds, deer and other wildlife</p>
+                    <p>Ogunquit River Inn overlooks the Ogunquit River and the Atlantic Ocean. The Rachel Carson Wildlife Refuge borders the property and attracts ducks, seabirds, deer and other wildlife, adding an extra dimension to your stay.
+
+                        Come relax at our beautiful inn and enjoy our complimentary breakfast!</p>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ export default function HeroSection() {
                 <div className='card-content p-4 text-white'>
                     <h4 >Book Now</h4>
                     <h3>Best Rate Guarantee</h3>
-                    <p>We guarantee ​you’ll find the lowest price here.</p>
+                    <span style={{color: 'white'}}>We guarantee ​you’ll find the lowest price here.</span>
                 </div>
             </Card.ImgOverlay>
         </Card>

@@ -15,7 +15,7 @@ export default function Transportation() {
                 <Col className='p-4'>
                     <p>**UNAVAILABLE DUE TO COVID-19 RESTRICTIONS​</p>
                     <p>Our partnership with local trolley companies allows us to offer guests a convenient pickup and drop off right in front of our hotel!</p>
-                    <p>Ogunquit Trolley Company offers pick up 8AM – 11PM from 6/27 – Labor Day every 20-30 minutes. Tel: 207-646-1411 </p>
+                    <p><span style={{color: '#29BFB3'}}>Ogunquit Trolley Company</span> offers pick up 8AM – 11PM from 6/27 – Labor Day every 20-30 minutes. Tel: 207-646-1411 </p>
                     <p><strong>RATES:</strong> $2.00/adult per ride + $1.50/child under 10 per ride</p>
                     <div className='explore-btn' style={{ display: 'none' }}>
                         <button className='outline-btn'>CALL NOW</button>
